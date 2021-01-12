@@ -1,38 +1,54 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+body{
   text-align: center;
+  background-color: lightblue;
+  background-image: url(https://res.cloudinary.com/dcvgmixhx/image/upload/v1610414588/chris-nguyen-lbmrrNgq2lo-unsplash_vj4yjn.jpg);
+  height: 1500px;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+h1{
+  font-family: 'Bungee Shade', cursive;
+  font-size: 7rem;
+  color: orangered;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2{
+  font-family: 'Bungee Shade', cursive;
+  font-size: 3rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h3{
+  font-size: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+h4{
+  font-size: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p{
+  font-size: 1.5rem;
+  font-weight: bold;
 }
+
+input[type=number]{
+width: 30%;
+margin: 2rem;
+padding: 1rem;
+font-size: 1.5rem;
+border-color: orangered;
+}
+
+input[type=submit]{
+  padding: 1rem;
+  font-size: 1.5rem;
+  border: 3px solid black;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
