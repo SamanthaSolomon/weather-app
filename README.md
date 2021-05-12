@@ -6,7 +6,6 @@
 A one page React app that pulls data from the Open Weather Map public API. 
 
 ### Build Staus: Complete
-Issues with deployment through github pages. Github is deploying the MD instead of building the app. Researching solutions.
 
 ## Code, Style & Framework
  - React
